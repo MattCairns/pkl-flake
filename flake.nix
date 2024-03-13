@@ -46,7 +46,7 @@
 
         installPhase = ''
           runHook preInstall
-          install -m755 -D ${src} $out/bin/pkl-cli
+          install -m755 -D ${src} $out/bin/pkl
           runHook postInstall
         '';
 
